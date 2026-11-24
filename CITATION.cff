@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Communication Growth Map 1.0: An Open, School-Agnostic Coordinate System for Human Effectiveness and Relational Well-Being"
+title: "Communication Growth Map 1.0: An Open, Cross-Disciplinary Coordinate System for Goal Attainment and Relational Well-Being"
 message: "If you use this framework, taxonomy, figures, or verification scripts in research, teaching, or software, please cite it using the metadata below."
 type: dataset
 authors:
@@ -19,4 +19,4 @@ keywords:
   - polar-rose-diagram
   - situational-judgment
   - open-framework
-abstract: "An open, school-agnostic public coordinate system for adult communication synthesized from 53 empirical and theoretical works across interpersonal communication, social-personality psychology, psychometrics, and information visualization. Defines 8 core directions x 40 role-scoped situations, a Dual-Ring Polar Rose visual model (refuting closed radar 1.99x axis-permutation distortion), and a Three-Layer Competence Iceberg with Dual-Track Subjective/Objective Calibration."
+abstract: "An open, cross-disciplinary public coordinate system for adult communication grounded in 53 empirical and foundational theoretical works across interpersonal communication, social-personality psychology, organizational behavior, psychometrics, and information visualization. Anchored on Effectiveness (Goal Attainment) x Appropriateness (Relational Maintenance), it defines 8 core directions x 40 role-scoped situations, a Dual-Ring Polar Rose visual model (demonstrating closed radar 1.99x axis-permutation distortion), and a Three-Layer Competence Iceberg with Dual-Track Subjective/Objective Calibration."

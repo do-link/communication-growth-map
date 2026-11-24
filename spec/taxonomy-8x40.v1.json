@@ -1,20 +1,21 @@
 {
   "schema_version": "1.0.0",
   "id": "CL-WP-2026-01",
-  "title": "沟通成长地图 1.0",
-  "title_en": "Communication Growth Map 1.0",
+  "title": "沟通成长地图 1.0：一个人如何通过沟通达成目标与增进幸福",
+  "title_en": "Communication Growth Map 1.0: An Open, Cross-Disciplinary Coordinate System for Goal Attainment and Relational Well-Being",
   "author": "张零 (Zhang Ling)",
   "publisher": "沟通实验室 (Communication Lab)",
   "canonical_url": "https://do.link/map/",
+  "repository_url": "https://github.com/do-link/communication-growth-map",
   "license": "CC BY 4.0",
   "published": "2026-11",
-  "axioms": {
-    "effectiveness": "能否在特定互动中清晰传递意图、协调分歧、推动承诺落地并获得预期结果（成事）",
-    "appropriateness": "在达成目标的过程中，能否尊重情境规范、顾及他人尊严、维护关系信任并守住合理边界（幸福）"
+  "dual_axis_criteria": {
+    "effectiveness": "能否在特定互动中清晰传递意图、协调分歧、推动承诺落地并实现预期目标（达成目标）",
+    "appropriateness": "在达成目标的过程中，能否尊重情境规范、顾及他人尊严、维护关系信任并守住合理边界（维护关系）"
   },
   "geometry": {
     "model": "dual-ring-polar-rose",
-    "closed_radar_rejected_reason": "Axis-permutation area distortion up to 1.9852x on identical 4x88% + 4x20% profile and default-score anchoring bias",
+    "closed_radar_rejected_reason": "Axis-permutation area distortion up to 1.9852x on identical 4x88% + 4x20% profile and default-midpoint anchoring bias",
     "unobserved_policy": "honest-whitespace-no-default-midpoint"
   },
   "calibration": {
@@ -23,8 +24,8 @@
     "quadrants": [
       "hidden_strength_impostor",
       "latent_blindspot_metacognitive",
-      "true_mastery",
-      "honest_starting_point"
+      "grounded_mastery",
+      "clear_starting_point"
     ]
   },
   "directions": [
@@ -37,10 +38,10 @@
       "layer": "双向基础通道",
       "citations": [11, 12, 13],
       "scenarios": [
-        { "id": "01", "title": "结论先行与电梯简报", "role": "职场" },
-        { "id": "02", "title": "复杂方案大白话拆解", "role": "职场" },
-        { "id": "03", "title": "发散讨论一分钟收口", "role": "职场" },
-        { "id": "04", "title": "当众脱稿与高压追问", "role": "职场" },
+        { "id": "01", "title": "结论先行与限时简明汇报", "role": "职场" },
+        { "id": "02", "title": "复杂方案通俗化拆解", "role": "职场" },
+        { "id": "03", "title": "发散讨论归纳与收敛共识", "role": "职场" },
+        { "id": "04", "title": "当众即兴发言与应对追问", "role": "职场" },
         { "id": "05", "title": "慢热场合自然接话", "role": "通用" }
       ]
     },
@@ -53,10 +54,10 @@
       "layer": "双向基础通道",
       "citations": [14, 15, 16],
       "scenarios": [
-        { "id": "06", "title": "忍住说教先接情绪", "role": "通用" },
-        { "id": "07", "title": "听出异议背后的真顾虑", "role": "职场" },
-        { "id": "08", "title": "模糊指令三问对齐", "role": "职场" },
-        { "id": "09", "title": "伴侣抱怨与翻旧账接招", "role": "伴侣" },
+        { "id": "06", "title": "暂缓说教先接纳情绪", "role": "通用" },
+        { "id": "07", "title": "听出异议背后的真实顾虑", "role": "职场" },
+        { "id": "08", "title": "承接模糊指令与澄清预期", "role": "职场" },
+        { "id": "09", "title": "应对伴侣抱怨与重提往事", "role": "伴侣" },
         { "id": "10", "title": "读懂孩子沉默与抵触", "role": "父母" }
       ]
     },
@@ -69,10 +70,10 @@
       "layer": "自我与他人的张力边界",
       "citations": [17, 18],
       "scenarios": [
-        { "id": "11", "title": "平级协作清爽求助", "role": "职场" },
-        { "id": "12", "title": "带着 A/B 选项向上拿拍板", "role": "职场" },
-        { "id": "13", "title": "坏消息提前预警与兜底", "role": "职场" },
-        { "id": "14", "title": "熟人账目与日常开口", "role": "通用" },
+        { "id": "11", "title": "平级协作明确提出请求", "role": "职场" },
+        { "id": "12", "title": "向上请示决策与备选建议", "role": "职场" },
+        { "id": "13", "title": "项目风险提前预警与补救", "role": "职场" },
+        { "id": "14", "title": "熟人账目厘清与日常求助", "role": "通用" },
         { "id": "15", "title": "伴侣家务与财务坦诚商量", "role": "伴侣" }
       ]
     },
@@ -85,11 +86,11 @@
       "layer": "自我与他人的张力边界",
       "citations": [19, 20, 21],
       "scenarios": [
-        { "id": "16", "title": "满载排期体面挡加塞", "role": "职场" },
-        { "id": "17", "title": "拒绝熟人越界与借钱隐私", "role": "通用" },
-        { "id": "18", "title": "顺手白嫖转付费增购", "role": "见客户" },
-        { "id": "19", "title": "兴头上温和亮明红线", "role": "职场" },
-        { "id": "20", "title": "不吼不叫立住育儿规矩", "role": "父母" }
+        { "id": "16", "title": "负荷满载时稳妥应对临时加派", "role": "职场" },
+        { "id": "17", "title": "婉拒熟人借钱与隐私打探", "role": "通用" },
+        { "id": "18", "title": "范围外免费要求转正式增购", "role": "见客户" },
+        { "id": "19", "title": "合作顺畅期温和阐明原则底线", "role": "职场" },
+        { "id": "20", "title": "平和坚定地建立育儿规则", "role": "父母" }
       ]
     },
     {
@@ -98,14 +99,14 @@
       "slug": "disagreement",
       "name": "协商分歧",
       "name_en": "De-escalated Disagreement",
-      "layer": "复杂协同与现实成事",
+      "layer": "复杂协同与目标兑现",
       "citations": [22, 23, 24],
       "scenarios": [
-        { "id": "21", "title": "把争输赢拉回共同目标", "role": "职场" },
-        { "id": "22", "title": "去刺挑明疏漏与标准", "role": "职场" },
+        { "id": "21", "title": "将争执输赢拉回共同目标", "role": "职场" },
+        { "id": "22", "title": "对事不对人地指出疏漏与标准", "role": "职场" },
         { "id": "23", "title": "向上提出不同专业判断", "role": "职场" },
         { "id": "24", "title": "伴侣消费观与原生家庭分歧", "role": "伴侣" },
-        { "id": "25", "title": "绩效面谈与老兵校准", "role": "管理" }
+        { "id": "25", "title": "绩效面谈与资深成员预期对齐", "role": "管理" }
       ]
     },
     {
@@ -114,14 +115,14 @@
       "slug": "cooperation",
       "name": "推进合作",
       "name_en": "Reliable Cooperation",
-      "layer": "复杂协同与现实成事",
+      "layer": "复杂协同与目标兑现",
       "citations": [25, 26, 27],
       "scenarios": [
-        { "id": "26", "title": "散会锁定责任人与时间点", "role": "职场" },
-        { "id": "27", "title": "催办惯性拖延搭档", "role": "职场" },
+        { "id": "26", "title": "会议收尾明确责任人与时间节点", "role": "职场" },
+        { "id": "27", "title": "跟进协作延期与推进交付", "role": "职场" },
         { "id": "28", "title": "跨组交接与变动同步", "role": "职场" },
-        { "id": "29", "title": "清爽派活戒掉保姆代劳", "role": "管理" },
-        { "id": "30", "title": "团队周会控场与跨墙护航", "role": "管理" }
+        { "id": "29", "title": "清晰委派授权与避免包办代劳", "role": "管理" },
+        { "id": "30", "title": "团队例会聚焦与跨部门协同支持", "role": "管理" }
       ]
     },
     {
@@ -130,13 +131,13 @@
       "slug": "value",
       "name": "呈现价值",
       "name_en": "Authentic Value Signaling",
-      "layer": "复杂协同与现实成事",
+      "layer": "复杂协同与目标兑现",
       "citations": [28, 29, 30],
       "scenarios": [
-        { "id": "31", "title": "幕后苦功讲出业务增量", "role": "职场" },
-        { "id": "32", "title": "报价不心虚自砍与抗比价", "role": "见客户" },
+        { "id": "31", "title": "平实呈现幕后投入与业务增量", "role": "职场" },
+        { "id": "32", "title": "清晰阐述报价依据与应对比较", "role": "见客户" },
         { "id": "33", "title": "谈薪议价与晋升答辩", "role": "职场" },
-        { "id": "34", "title": "自我介绍与业务亮名片", "role": "通用" },
+        { "id": "34", "title": "专业自我介绍与合作价值呈现", "role": "通用" },
         { "id": "35", "title": "阶段性成果预期管理", "role": "职场" }
       ]
     },
@@ -146,14 +147,14 @@
       "slug": "repair",
       "name": "修复关系",
       "name_en": "Relational Rupture Repair",
-      "layer": "时间维度的韧性兜底",
+      "layer": "时间维度的韧性修复",
       "citations": [31, 32, 33],
       "scenarios": [
-        { "id": "36", "title": "冲突火头稳稳踩刹车", "role": "通用" },
-        { "id": "37", "title": "失误致歉止损与补救", "role": "职场" },
+        { "id": "36", "title": "冲突升温时及时暂停与降温", "role": "通用" },
+        { "id": "37", "title": "失误坦诚致歉与实质补救", "role": "职场" },
         { "id": "38", "title": "争执或受批后自然破冰", "role": "职场" },
-        { "id": "39", "title": "伴侣冷战递台阶与不带刺道歉", "role": "伴侣" },
-        { "id": "40", "title": "冲孩子发火后蹲下修复", "role": "父母" }
+        { "id": "39", "title": "伴侣冷战破冰与坦诚致歉", "role": "伴侣" },
+        { "id": "40", "title": "对孩子情绪失控后的关系修复", "role": "父母" }
       ]
     }
   ]

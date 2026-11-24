@@ -1,21 +1,21 @@
 # 沟通成长地图 1.0（Communication Growth Map 1.0）
 
-**基于 53 项跨学科实证研究构建的成人沟通公共坐标系 · `CL-WP-2026-01` · `CC BY 4.0`**
+**一个人如何通过沟通达成目标与增进幸福 · `CL-WP-2026-01` · `CC BY 4.0`**
 
 [中文 README](./README.md) · [English README](./README.en.md) · [在线阅读白皮书](https://do.link/map/) · [在线交互实验台](https://do.link/lab/) · [开放规范页](https://do.link/spec/)
 
 ---
 
-![传统闭合蛛网图的 1.99 倍排列面积伪影实证对比双环极坐标玫瑰科学模型](./figures/fig2_spider_bias_vs_rose_map.png)
+![传统闭合蛛网图 1.99 倍排列面积失真与双环极坐标玫瑰模型对比](./figures/fig2_spider_bias_vs_rose_map.png)
 
 ## 概述
 
-**《沟通成长地图 1.0》（Communication Growth Map 1.0）** 是由 [沟通实验室（Communication Lab）](https://do.link) 整理并开源的公共成人沟通坐标系。框架立足传播学、社会与人格心理学、组织行为学、心理测量学及信息可视化领域的 **53 项经典实证研究**，不局限于任何单一学派：
+**《沟通成长地图 1.0》（Communication Growth Map 1.0）** 是由 [沟通实验室（Communication Lab）](https://do.link) 整理并开源的成人沟通公共坐标系。框架超越单一学科视角，立足传播学、社会与人格心理学、组织行为学、心理测量学及信息可视化领域的 **53 项行为科学实证研究**：
 
-- **双轴理论准则**：以 Spitzberg & Cupach（1984）的 **有效性（成事）× 得体性（幸福）** 为衡量基准，结合哈佛成人发展 85 年追踪与组织心理安全感研究。
-- **8 大方向 × 40 个角色化真实处境**：按人类互动完整周期（双向通道 → 边界确立 → 复杂协同 → 裂痕修复）推导出正交完备的 8 个宏观方向与 40 个高生态效度处境，覆盖 `职场`、`通用`、`伴侣`、`管理`、`父母`、`见客户` 6 类关系语境。
-- **双环极坐标玫瑰几何规范**：通过可复现的数学推导证明传统闭合蛛网图在完全相同数值（`4 × 88% + 4 × 20%`）下仅调换坐标轴顺序即可制造 **`1.99×`** 的面积伪影，确立正交独立、未观测处素瓷留白（不预设默认中间分）的双环极坐标玫瑰模型。
-- **三层能力冰山与主客观双轨校准**：针对 Zell & Krizan（2014）汇总 22 项元分析揭示的人类自评与客观表现低相关难题（`r = 0.29`），并置 **主观体感（`○`）× 客观表现（`●`）** 四象限校准平面，并在外显行动层之下锚定可重构的 **隐性关系信念** 与无高下优劣之分的 **自然沟通风格**。
+- **双轴理论准则**：以 Spitzberg & Cupach（1984）的 **有效性（达成目标）× 得体性（维护关系）** 为衡量基准，结合哈佛成人发展 85 年追踪与组织心理安全感研究。
+- **8 大方向 × 40 个角色化真实处境**：沿人类互动完整周期（双向基础通道 → 自我与他人的张力边界 → 复杂协同与目标兑现 → 时间维度的韧性修复）推导出正交完备的 8 个宏观方向与 40 个高生态效度处境，覆盖 `职场`、`通用`、`伴侣`、`管理`、`父母`、`见客户` 6 类关系语境。
+- **双环极坐标玫瑰几何规范**：通过可复现的数学推导验证传统闭合蛛网图在完全相同数值（`4 × 88% + 4 × 20%`）下仅调换坐标轴顺序即可制造 **`1.99×`** 的面积伪影，确立正交独立、未观测处如实留白（不预设默认中间分）的双环极坐标玫瑰模型。
+- **三层能力冰山与主客观双轨校准**：针对 Zell & Krizan（2014）汇总 22 项元分析揭示的人类自评与客观表现低相关难题（`r = 0.29`），并置 **主观体感（`○`）× 客观表现（`●`）** 四象限校准平面，并在外显行动层之下锚定可重构的 **隐性关系信念** 与连续光谱分布的 **自然沟通风格**。
 
 ## 仓库目录结构
 
@@ -28,8 +28,8 @@ communication-growth-map/
 ├── whitepaper/
 │   └── communication-growth-map-v1.md         # 白皮书 1.0 完整正文（含 53 篇文献）
 ├── figures/
-│   ├── fig1_eight_pillars_cycle.png           # 图 1：双轴准则与八大方向行动闭环
-│   ├── fig2_spider_bias_vs_rose_map.png       # 图 2：1.99× 闭合蛛网伪影对比玫瑰模型
+│   ├── fig1_eight_pillars_cycle.png           # 图 1：双轴准则与八大方向结构
+│   ├── fig2_spider_bias_vs_rose_map.png       # 图 2：1.99× 闭合蛛网失真对比玫瑰模型
 │   └── fig3_iceberg_and_calibration_model.png # 图 3：三层能力冰山与双轨校准四象限
 ├── spec/
 │   └── taxonomy-8x40.v1.json                  # 8 大方向 × 40 处境机读结构化规范
@@ -65,10 +65,10 @@ Polar Rose max drift     : 0.00e+00 (exact invariance)
 | `02` | 倾听理解 | Empathetic Listening | 第一层 · 双向基础通道 | `06–10` |
 | `03` | 提出请求 | Constructive Request | 第二层 · 自我与他人的张力边界 | `11–15` |
 | `04` | 守住边界 | Firm and Warm Boundary | 第二层 · 自我与他人的张力边界 | `16–20` |
-| `05` | 协商分歧 | De-escalated Disagreement | 第三层 · 复杂协同与现实成事 | `21–25` |
-| `06` | 推进合作 | Reliable Cooperation | 第三层 · 复杂协同与现实成事 | `26–30` |
-| `07` | 呈现价值 | Authentic Value Signaling | 第三层 · 复杂协同与现实成事 | `31–35` |
-| `08` | 修复关系 | Relational Rupture Repair | 第四层 · 时间维度的韧性兜底 | `36–40` |
+| `05` | 协商分歧 | De-escalated Disagreement | 第三层 · 复杂协同与目标兑现 | `21–25` |
+| `06` | 推进合作 | Reliable Cooperation | 第三层 · 复杂协同与目标兑现 | `26–30` |
+| `07` | 呈现价值 | Authentic Value Signaling | 第三层 · 复杂协同与目标兑现 | `31–35` |
+| `08` | 修复关系 | Relational Rupture Repair | 第四层 · 时间维度的韧性修复 | `36–40` |
 
 完整 40 处境与角色标注见 [`spec/taxonomy-8x40.v1.json`](./spec/taxonomy-8x40.v1.json) 或阅读 [`whitepaper/communication-growth-map-v1.md`](./whitepaper/communication-growth-map-v1.md)。
 
@@ -85,20 +85,20 @@ Polar Rose max drift     : 0.00e+00 (exact invariance)
 **APA 7th：**
 
 ```text
-Zhang, L. (2026). Communication Growth Map 1.0: An Open, School-Agnostic Coordinate System for Human Effectiveness and Relational Well-Being (Open Whitepaper No. CL-WP-2026-01). Communication Lab. https://do.link/map/
+Zhang, L. (2026). Communication Growth Map 1.0: An Open, Cross-Disciplinary Coordinate System for Goal Attainment and Relational Well-Being (Open Whitepaper No. CL-WP-2026-01). Communication Lab. https://do.link/map/
 ```
 
 **BibTeX：**
 
 ```bibtex
 @misc{zhang2026communicationmap,
-  title        = {Communication Growth Map 1.0: An Open, School-Agnostic Coordinate System for Human Effectiveness and Relational Well-Being},
+  title        = {Communication Growth Map 1.0: An Open, Cross-Disciplinary Coordinate System for Goal Attainment and Relational Well-Being},
   author       = {Zhang, Ling},
   howpublished = {Communication Lab Open Whitepaper (CL-WP-2026-01)},
   year         = {2026},
   month        = {11},
   url          = {https://do.link/map/},
-  note         = {Open specification licensed under CC BY 4.0}
+  note         = {Open specification licensed under CC BY 4.0. Repository: https://github.com/do-link/communication-growth-map}
 }
 ```
 
