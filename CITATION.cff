@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Communication Growth Map 1.0: An Open, School-Agnostic Coordinate System for Human Effectiveness and Relational Well-Being"
+message: "If you use this framework, taxonomy, figures, or verification scripts in research, teaching, or software, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: "Zhang"
+    given-names: "Ling"
+    alias: "张零"
+    website: "https://zhanglingx.com"
+version: "1.0.0"
+date-released: "2026-11-24"
+license: CC-BY-4.0
+url: "https://do.link/map/"
+repository-code: "https://github.com/do-link/communication-growth-map"
+keywords:
+  - communication-competence
+  - behavioral-science
+  - psychometrics
+  - polar-rose-diagram
+  - situational-judgment
+  - open-framework
+abstract: "An open, school-agnostic public coordinate system for adult communication synthesized from 53 empirical and theoretical works across interpersonal communication, social-personality psychology, psychometrics, and information visualization. Defines 8 core directions x 40 role-scoped situations, a Dual-Ring Polar Rose visual model (refuting closed radar 1.99x axis-permutation distortion), and a Three-Layer Competence Iceberg with Dual-Track Subjective/Objective Calibration."
